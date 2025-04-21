@@ -24,3 +24,18 @@ if (texto) {
 console.log(ventas.total + 10);
 console.log("si concatena: " + ventas.total + 10);
 console.log("Prueba: " + pedido.nombre);
+//////////////////////caracteristicas principales de Ts
+let num1 = 30;
+console.log(num1);
+const atacar = (poder) => {
+    console.log(poder);
+    console.log(poder.length);
+};
+atacar("pikauchuuu");
+///////////////////funcion recursiva
+(() => {
+    let valor = true;
+    const titulo4 = document.getElementById('titulo4');
+    if (titulo4)
+        titulo4.textContent = "prueba holamundo.ts";
+})();
